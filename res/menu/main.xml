@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_action_settings"/>
+    <item
+        android:id="@+id/action_flash_on"
+        android:orderInCategory="48"
+        android:showAsAction="always"
+        android:title="@string/take_shot"
+        android:icon="@drawable/ic_action_flash_on"
+        android:visible="false"/>
+    <item
+        android:id="@+id/action_flash_off"
+        android:orderInCategory="49"
+        android:showAsAction="always"
+        android:title="@string/take_shot"
+        android:icon="@drawable/ic_action_flash_off"
+        android:visible="false"/>
+	<item
+        android:id="@+id/action_photo"
+        android:orderInCategory="50"
+        android:showAsAction="always"
+        android:title="@string/take_shot"
+        android:icon="@drawable/ic_action_photo"
+        android:visible="false"/>
+	<item
+        android:id="@+id/action_photo_save"
+        android:orderInCategory="51"
+        android:showAsAction="always"
+        android:title="@string/save_shot"
+        android:icon="@drawable/ic_action_save"
+        android:visible="false"/>
+        />
+	<item
+        android:id="@+id/action_photo_cancel"
+        android:orderInCategory="52"
+        android:showAsAction="always"
+        android:title="@string/cancel_shot"
+        android:icon="@drawable/ic_action_cancel"
+        android:visible="false"/>
+</menu>

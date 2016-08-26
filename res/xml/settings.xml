@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+  	<PreferenceCategory android:title="@string/origin_marker">
+  	    <EditTextPreference
+  	        android:key="@string/origin_marker_id_key"
+            android:title="@string/origin_marker_id_title"
+            android:numeric="integer" 
+            android:defaultValue="@string/origin_marker_id_default"
+  	        />
+  	</PreferenceCategory>
+  	<PreferenceCategory android:title="@string/markers">    
+  	    <EditTextPreference
+  	        android:key="@string/markers_size_key"
+            android:title="@string/markers_size_title"
+            android:numeric="decimal" 
+            android:defaultValue="@string/markers_size_default"
+  	        />
+  	    <Preference
+  	        android:key="@string/load_properties_key"
+            android:title="@string/load_properties_title"
+  	        />
+  	</PreferenceCategory>
+  	<PreferenceCategory android:title="@string/calibration">    
+  	    <Preference
+            android:title="@string/calibration_title"
+            android:key="@string/calibration_key"
+            android:summary="@string/calibration_summary"
+  	        />
+  	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/about">
+		<Preference 
+		    android:title="@string/sendfeedback"
+		    android:key="@string/sendfeedback_key"/>	
+	</PreferenceCategory>
+	
+</PreferenceScreen>

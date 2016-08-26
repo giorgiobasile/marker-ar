@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MarkerAR</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="about">About</string>
+    <string name="sendfeedback">Invia feedback</string>
+    <string name="email">giorgio.basile4@gmail.com</string>
+    <string name="origin_marker">Origin marker</string>
+    <string name="origin_marker_id_title">ID marker origine</string>
+    <string name="take_shot">Scatta foto</string>
+    <string name="cancel_shot">Annulla scatto</string>
+    <string name="save_shot">Salva foto</string>
+    <string name="save_success">salvato</string>
+    <string name="modify_value">Modifica valore</string>
+    <string name="markers">Markers</string>
+    <string name="markers_size_title">Dimensione marker (m)</string>
+    <string name="origin_too_many">Troppi marker origine</string>
+    <string name="origin_lack">Marker origine non trovato</string>
+    <string name="load_properties_title">Carica schema proprietà</string>
+    <string name="error_load_properties">Errore lettura proprietà</string>
+    <string name="success_load_properties">Caricamento effettuato</string>
+    <string name="drawer_open">Drawer aperto</string>
+    <string name="drawer_close">Drawer chiuso</string>
+
+    <string-array name="drawer_options">
+        <item>Nuovo</item>
+        <item>Apri progetto&#8230;</item>
+        <item>Genera marker</item>
+        <item>Crea schema</item>
+    </string-array>
+
+    <string name="calibration">Calibrazione</string>
+    <string name="calibration_title">Calibra fotocamera</string>
+    <string name="calibration_summary">Necessario per la ricostruzione 3D</string>
+    <string name="calibration_request">E\' necessario calibrare la fotocamera per abilitare le funzionalità 3D. Vuoi farla adesso?</string>
+    <string name="edit_open_error">File di progetto non trovati</string>
+    <string name="title_activity_properties">Proprietà</string>
+    <string name="hello_world">Ciao Mondo!</string>
+    <string name="add_property_button">Aggiungi&#8230;</string>
+    <string name="add_property">Aggiungi proprietà</string>
+    <string name="add_value">Aggiungi valore</string>
+    <string name="remove_property">Rimuovi proprietà</string>
+    <string name="title_activity_browse_file">Sfoglia&#8230;</string>
+    <string name="save_as">Salva come&#8230;</string>
+    <string name="save_error">Errore salvataggio</string>
+    <string name="save_schema">Salva schema</string>
+    <string name="load_schema">Carica schema</string>
+    <string name="marker_saved">Marker salvato!</string>
+    <string name="schema_saved">Schema salvato!</string>
+    <string name="schema_not_saved">Errore salvataggio schema</string>
+    <string name="add">Aggiungi&#8230;</string>
+    <string name="title_activity_create_schema">Crea schema</string>
+    <string name="save">Salva</string>
+    <string name="accepted_values">Valori consentiti</string>
+    <string name="name">Nome</string>
+    <string name="prop_duplicate">Errore: nome proprietà già in uso</string>
+    <string name="value_duplicate">Errore: valore già definito</string>
+    <string name="generator_hint">Inserisci ID (1 – 1023)</string>
+    <string name="open_project">Apri progetto</string>
+    <string name="empty_label">Etichetta vuota</string>
+	<string name="calibration_missed">Impossibile trovare il file di calibrazione, non potrai visualizzare le coordinate 3D</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MarkerAR</string>
+    <string name="action_settings">Settings</string>
+    <string name="sendfeedback_key">sendfeedback</string>
+    <string name="about">About</string>
+    <string name="sendfeedback">Send feedback</string>
+    <string name="email">giorgio.basile4@gmail.com</string>
+    <string name="origin_marker">Origin marker</string>
+    <string name="origin_marker_id_key">origin_marker_id</string>
+    <string name="origin_marker_id_title">Origin marker ID</string>
+    <string name="origin_marker_id_default">960</string>
+    <string name="take_shot">Take shot</string>
+    <string name="cancel_shot">Cancel shot</string>
+    <string name="save_shot">Save shot</string>
+    <string name="save_success">saved</string>
+    <string name="modify_value">Modify value</string>
+    <string name="markers">Markers</string>
+    <string name="markers_size_key">markers_size</string>
+    <string name="markers_size_title">Markers size (m)</string>
+    <string name="markers_size_default">0.040</string>
+    <string name="origin_too_many">Too many origin markers</string>
+    <string name="origin_lack">Origin marker not found</string>
+    <string name="load_properties_title">Load properties scheme</string>
+    <string name="load_properties_key">load_properties</string>
+    <string name="error_load_properties">Error parsing properties file</string>
+    <string name="success_load_properties">Successful loading</string>
+    <string name="drawer_open">Drawer open</string>
+    <string name="drawer_close">Drawer close</string>
+
+    <string-array name="drawer_options">
+        <item>New</item>
+        <item>Open project&#8230;</item>
+        <item>Generate marker</item>
+        <item>Create schema</item>
+    </string-array>
+
+    <string name="calibration">Calibration</string>
+    <string name="calibration_title">Calibrate your camera</string>
+    <string name="calibration_summary">Needed for 3D reconstruction</string>
+    <string name="calibration_key">calibration</string>
+    <string name="calibration_request">You need to calibrate your camera in order to enable 3D capabilities. Do you want to do it now?</string>
+    <string name="edit_open_error">Cannot retrieve project files</string>
+    <string name="title_activity_properties">Properties</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="add_property_button">Add&#8230;</string>
+    <string name="add_property">Add property</string>
+    <string name="add_value">Add value</string>
+    <string name="remove_property">Remove property</string>
+    <string name="title_activity_browse_file">Browse file&#8230;</string>
+    <string name="save_as">Save as&#8230;</string>
+    <string name="save_error">Error saving file</string>
+    <string name="save_schema">Save schema</string>
+    <string name="load_schema">Load schema</string>
+    <string name="prop_file_key">propFile</string>
+    <string name="marker_saved">Marker saved!</string>
+    <string name="schema_saved">Schema saved!</string>
+    <string name="schema_not_saved">Error saving schema</string>
+    <string name="add">Add&#8230;</string>
+    <string name="title_activity_create_schema">Create schema</string>
+    <string name="save">Save</string>
+    <string name="accepted_values">Accepted values</string>
+    <string name="name">Name</string>
+    <string name="prop_duplicate">Error: property name already used</string>
+    <string name="value_duplicate">Error: value already defined</string>
+    <string name="generator_hint">Insert ID (1 – 1023)</string>
+    <string name="open_project">Open project</string>
+    <string name="empty_label">Empty label</string>
+	<string name="calibration_missed">Cannot retrieve calibration file, you can\'t see 3d coords</string>
+</resources>
